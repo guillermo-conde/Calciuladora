@@ -4,7 +4,7 @@
     <string name="uno">1</string>
     <string name="dos">2</string>
     <string name="tres">3</string>
-    <string name="cuatro"></string>
+    <string name="cuatro">4</string>
     <string name="cinco">5</string>
     <string name="seis">6</string>
     <string name="siete">7</string>
@@ -15,7 +15,8 @@
     <string name="mult">*</string>
     <string name="div">/</string>
     <string name="igual">=</string>
-    <string name="div_cero">Error: division por cero</string>
+    <string name="limpiar">Limpiar pantalla</string>
+    <string name="div_cero">Error: división por cero</string>
     <string name="no_operacion">Error: No ha ingresado una operación</string>
     <string name="no_numero">Error: Primero debe ingresar un número.</string>
     <string name="op_registrada">Operación registrada</string>

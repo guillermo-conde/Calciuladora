@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button17"
+        android:id="@+id/btnResultado"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="5dp"
@@ -18,16 +18,16 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
-        app:layout_constraintTop_toBottomOf="@+id/button14" />
+        app:layout_constraintTop_toBottomOf="@+id/btnSuma" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnLimp"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="5dp"
         android:layout_marginEnd="5dp"
         android:backgroundTint="@android:color/darker_gray"
-        android:text="borrar"
+        android:text="@string/limpiar"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline6"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
@@ -92,7 +92,7 @@
         app:layout_constraintGuide_percent="0.85" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnDiv"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="5dp"
@@ -106,7 +106,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline5" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btn7"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="5dp"
@@ -121,7 +121,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btn8"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="5dp"
@@ -129,12 +129,12 @@
         android:text="@string/ocho"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline7"
-        app:layout_constraintEnd_toStartOf="@+id/button5"
+        app:layout_constraintEnd_toStartOf="@+id/btn9"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/btnLimp" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btn9"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="5dp"
@@ -147,7 +147,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline6" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/btnMult"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="5dp"
@@ -161,12 +161,12 @@
         app:layout_constraintTop_toTopOf="@+id/guideline6" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/btn4"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="5dp"
         android:layout_marginEnd="5dp"
-        android:text="4"
+        android:text="@string/cuatro"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline8"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
@@ -174,7 +174,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline7" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/btn5"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="5dp"
@@ -187,7 +187,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline7" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/btn6"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="5dp"
@@ -200,7 +200,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline7" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/btnResta"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="5dp"
@@ -214,7 +214,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline7" />
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/btn1"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="5dp"
@@ -227,7 +227,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline8" />
 
     <Button
-        android:id="@+id/button13"
+        android:id="@+id/btn3"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="5dp"
@@ -240,7 +240,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline8" />
 
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/btn2"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="5dp"
@@ -253,7 +253,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline8" />
 
     <Button
-        android:id="@+id/button14"
+        android:id="@+id/btnSuma"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="5dp"
@@ -267,7 +267,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline8" />
 
     <Button
-        android:id="@+id/button15"
+        android:id="@+id/btn0"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="5dp"
@@ -293,11 +293,10 @@
         app:layout_constraintTop_toTopOf="@+id/guideline9" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/campoResultado"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:gravity="center"
-        android:text="0"
         android:textAlignment="textEnd"
         android:textColor="@color/black"
         android:textSize="48sp"
